@@ -1,3 +1,4 @@
+   
 /*
     Task
     - In the function, iterate through the array `studentList`.
@@ -8,6 +9,13 @@ const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michel
 
 function printStudentNames(){
     // Add code here
+    const LengthOfstudentList = studentList.length;
+
+    for (i = 0; i < LengthOfstudentList; i++) {
+        console.log("The student name : " + studentList[i]);
+    }
+
+    return studentList;
 }
 
 printStudentNames();
